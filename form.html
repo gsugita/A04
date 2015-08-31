@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        #header{
+            border:1px solid black;
+            text-align:center;
+            padding: 10px;
+        }
+
+
+        #nav{
+            border:1px solid black;
+            height: 85vh;
+            width:20vw;
+            float:left;
+            text-align:center;
+        }
+
+        #section{
+            border:1px solid black;
+            height: 84vh;
+            width:75vw;
+            float:left;
+            padding: 5px;
+        }
+
+        #footer {
+            clear:both;
+            text-align:center;
+        }
+
+        p.one {
+            outline: black solid medium;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body style="border:1px solid black">
+<div id="header">
+    <h1>Gavin's Webpage!</h1>
+</div>
+
+<div id="location">
+    <a href="index.html">Home</a>
+    <a href="form.html">Forms</a>
+    <br>
+</div>
+
+<div id="nav">
+    <p><b>Forms Summary</b></p>
+    <p>HTML supports several different types of input.</p>
+</div>
+
+<div id="section">
+    <h2><b>Forms</b></h2>
+    <form method="get" action="form.html">
+    <p>The following is a text input:</p>
+    Username: <input type="text" name="UserName"><br>
+    <p>Then a password input</p>
+    Password: <input type="text" name="Password"><br>
+
+    <p>Radio Buttons:</p>
+
+        <input type="radio" name="sex" value="male"> Male
+        <br>
+        <input type="radio" name="sex" value="female"> Female
+
+
+    <p>Checkboxes</p>
+
+        <input type="checkbox" name="os" value="Windos"> Windows<br>
+        <input type="checkbox" name="os" value="OSX"> OS X<br>
+        <input type="checkbox" name="os" value="Linus"> Linux<br>
+    <p>Submit button to send form data</p>
+    <input type="Submit" value="Submit">
+
+    </form>
+</div>
+
+<footer>Copyright (C) Gavin Sugita</footer>
+</body>
+</html>
